@@ -1,0 +1,411 @@
+.contact{
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.rese{
+    display: inline-block;
+    justify-content: center;
+}
+
+#gauche{
+    text-align: left;
+ }
+ #droite{
+    text-align: right;
+ }
+
+ .pied{
+   background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+ }
+ .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+ }
+.mariage{
+   border: 2px solid black;
+   border-radius: 5px solid black;
+   box-shadow: 5px 5px 5px 5px ;
+}
+h5{
+color: white;
+
+}
+h3{
+   color: white;
+}
+.mb-1{
+   color: black;
+}
+.ppl{
+   width: 70px;
+}
+.VS{
+   width: 40px;
+}
+.AE{
+   width: 40px;
+}
+.CB{
+   width: 40px;
+}
+#image1{
+   border: 2px solid black;
+   max-height: max-content;
+   max-width: max-content;
+   display: table;
+   margin: 0 auto;
+}
+#image1:hover {
+   
+   border: none;
+   background-color: transparent;
+   box-shadow: 5px 5px 5px 5px salmon;
+   border-radius: 5px 5px 5px 5px;
+}
+
+ .container{
+   margin-top: 50px; 
+ }
+ .text{
+   text-decoration: solid;
+   font-style: italic;
+   text-align: center;
+ }
+ .accordeon{
+color: black;
+ }
+
+#container{
+   margin-left: 50px;
+
+}
+
+.p1{ 
+   background-color: #F5DEB3;
+   width: 800px;
+   height: 350px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+.btn1{
+   background-color: beige;
+   width: 3px;
+   height: 15px;
+}
+
+.navbar-default{
+   border-color: hotpink;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.newsletter h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 250px;
+  max-width: 100%;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #FFC107;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item > img {
+  height: 33.33vh;
+}
+
+.carousel-item > .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-item:first-child {
+  height: 100vh;
+}
+
+.carousel-item:first-child > img {
+  height: 100vh;
+}
+
+.carousel-item:first-child > .carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-item.active {
+  display: flex !important;
+  justify-content: center;
+}
+
+.carousel-item.active > img {
+  height: 100vh;
+  margin: auto;
+}
+
+.carousel-item.active > .carousel-caption {
+  display: none;
+}
+
+.bg {
+  background: linear-gradient(to right, #00093c, #2d0b00);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bubble {
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.bubble h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.bubbles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bubble-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: auto;
+}
+
+.bubble-right {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-left: auto;
+}
+
+.bubble-content {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Calendrier */
+.calendar {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.calendar th,
+.calendar td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.calendar th {
+  background-color: #f2f2f2;
+}
+
+.calendar td {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.calendar td:hover {
+  background-color: #f2f2f2;
+}
+
+.calendar .current-month {
+  font-weight: bold;
+}
+
+.calendar .today {
+  background-color: #b3d7ff;
+}
+
+.calendar .booked {
+  background-color: #ff9999;
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Formulaire de réservation */
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.form-field input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-field input[type="submit"]:hover {
+  background-color: #23527c;
+}
+
+.calendar {
+  background-color: #F5DEB3;
+  color: white;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+.available {
+  background-color: green;
+}
+
+.unavailable {
+  background-color: red;
+}
+
+.range-slider {
+  margin: 50px;
+  position: relative;
+  height: 10px;
+  background: white;
+}
+
+.range-slider__range {
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 100%;
+  height: 14px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #F5DEB3;
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  appearance: none;
+  outline: none;
+}
+
+.range-slider__range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.range-slider__value {
+  display: inline-block;
+  position: absolute;
+  top: -28px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+}
